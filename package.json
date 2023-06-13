@@ -1,0 +1,26 @@
+{
+  "name": "10logo-generator",
+  "version": "1.0.0",
+  "description": "AS a freelance web developer\r I WANT to generate a simple logo for my projects\r SO THAT I don't have to pay a graphic designer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microvac23/10Logo-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/microvac23/10Logo-Generator/issues"
+  },
+  "homepage": "https://github.com/microvac23/10Logo-Generator#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
