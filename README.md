@@ -17,6 +17,7 @@ then I can enter up to three characters.
 ## Technologies Used
 
 Jest Test: https://www.npmjs.com/package/jest
+Inquirer: https://www.npmjs.com/package/inquirer
 
 
 ## Examples
