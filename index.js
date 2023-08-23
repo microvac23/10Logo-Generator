@@ -20,7 +20,7 @@ function generateSVG({shape, backgroundColor, textColor, text}) {
   return image
 }
 
-
+// inquirer CLI prompts
 inquirer.prompt([
     {
         type: 'input',
@@ -45,8 +45,9 @@ inquirer.prompt([
     }
 ])
 .then(response => {
-    console.log(`Hello, your logo has been made and added to the examples folder!`);
+    console.log(`Hello, your logo has been made and added to the examples folder as file 'logo.svg'!`);
     
+    //writes file if not written and will overwrite file when ran again
     fs.writeFile("./examples/logo.svg", generateSVG(response), (err) => {
         if (err)
           console.log(err);
