@@ -14,12 +14,19 @@ then I can enter up to three characters.
 <br>When I have entered input for all the prompts, then an SVG file is created named `logo.svg` and the output text "Generated logo.svg" is printed in the command line.
 <br>When I open the `logo.svg` file in a browser, then I am shown a 300x200 pixel image that matches the criteria I entered.
 
-##Technologies Used
+## Technologies Used
 
 Jest Test: https://www.npmjs.com/package/jest
 
 
-##Examples
+## Examples
+
+Video Tutorial: 
+
 App Screenshot:
 
+![alt text](./examples/Screenshot%202023-08-22%20231838.png)
+
 Test Logo:
+
+![alt text](./examples/Screenshot%202023-08-22%20221011.png)
