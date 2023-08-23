@@ -6,7 +6,6 @@ const fs = require('fs')
 function generateSVG({shape, backgroundColor, textColor, text}) {
     if (shape === 'square') {
         var content = new Square(backgroundColor)
-        console.log(backgroundColor);
     } else if (shape === 'circle') {
         var content = new Circle(backgroundColor)
     } else if (shape === 'triangle') {
